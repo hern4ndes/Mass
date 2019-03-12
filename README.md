@@ -33,10 +33,10 @@
 
 * **04- 06/03/2019** carnaval.
 
-* **07- 08/03/2019** pos-carnaval, leitura dos arigos e observações sobre os artigos.
+* **07- 08/03/2019** pos-carnaval, leitura dos artigos e observações sobre os artigos.
 
 * **09/03/2019** Reunião(_call_) para explanação do cronograma.
 
-* **12/03/2019** Não conseguimos trabalhar,porém a sala foi limpa, Saimos para por passe no cartão do hernandes e comer salgado com caldo de cana. 
+* **11/03/2019** Não conseguimos trabalhar,porém a sala foi limpa, Saimos para por passe no cartão do hernandes e comer salgado com caldo de cana. 
 
 * **12/03/2019** Não conseguimos trabalhar, porém o diario de bordo foi atualizado, Saimos para comer um subway. 
