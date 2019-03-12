@@ -28,3 +28,7 @@
 * **26/02/2019** Aprovados Serbrae-Like a boss, Descoberta dos Artigos de detecção de lixo usando cnn, **_Hernandes vomitou dps de um misto quente_**
 
 * **09/03/2019** Reunião(_call_) para explanação do cronograma 
+
+* **12/03/2019** Não conseguimos trabalhar, Saimos para por passe no cartão do hernandes e comer salgado com caldo de cana 
+
+* **12/03/2019** Não conseguimos trabalhar, Saimos para comer um subway 
