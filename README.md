@@ -2,7 +2,7 @@
 # Mass
 ## Diario de bordo
 
-* **-16/01/2018** - estudo basico do opencv e implementação de detecção de obejetos por por filtro de borda e calculo do centroids
+* *16/01/2018** - estudo basico do opencv e implementação de detecção de obejetos por por filtro de borda e calculo do centroids
 
 * **17-18/01/2018** - implementação do menor caminho entre os centroids dos objetos
 
