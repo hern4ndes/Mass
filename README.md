@@ -15,3 +15,5 @@
 * **25/01/2018** - tentativa de implementação de técnicas de segmentação em imagem fracionada
 
 * **28-29/01/2019** - foram estudados conceitos de redes neurais convolucionais, algoritmos de navegação e foi testado um algoritmo com "torch", uma rede neural pre-treinada para reconhecimento de objetos. O algoritmo foi feito para trabalhar com vídeos, mas, com imagens capturadas em tempo real, os resultados não foram satisfatórios devido ao alto FPS da câmera usada*
+
+* **11/02/2019** segmentção semantica usando convnets do google, codigo lento, e mog detecta objetos baseado da movimentação 
