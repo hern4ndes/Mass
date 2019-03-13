@@ -40,3 +40,5 @@
 * **11/03/2019** Não conseguimos trabalhar,porém a sala foi limpa, Saimos para por passe no cartão do hernandes e comer salgado com caldo de cana. 
 
 * **12/03/2019** Não conseguimos trabalhar, porém o diario de bordo foi atualizado, Saimos para comer um subway. 
+
+* **13/03/2019** Mais um dia sem conseguir trabalhar(Hernandes) pqp, tive que sair e mostrar um negocio pro marcelio, vou compensar esses dias no fim de semana
