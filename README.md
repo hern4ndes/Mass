@@ -42,3 +42,7 @@
 * **12/03/2019** Foram feitas pesquisas para seleção de novos modelos, há algumas redes otimizadas como PVANET e tiny-YOLO, mas tiny-YOLO pode não ser tão eficiente para a aplicação desejada (vide comentário do artigo), o diario de bordo foi atualizado, Saimos para comer um subway. 
 
 * **13/03/2019** (Hernandes) pqp, tive que sair e mostrar um negocio pro marcelio, vou compensar esses dias no fim de semana
+
+* **19/03/2019** Implemetação dos algoritimos de espelhar e inverter as imagens do dataset,e como treinar uma mobilenet, alem disso foi pesquisado sobre ferramentas de labelling de images de forma automatica
+
+* **20/03/2019** Tutoria de tensorflow, e alguns outro de object detection com mobilenets
