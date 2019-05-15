@@ -46,3 +46,5 @@
 * **19/03/2019** Implemetação dos algoritimos de espelhar e inverter as imagens do dataset,e como treinar uma mobilenet, alem disso foi pesquisado sobre ferramentas de labelling de images de forma automatica
 
 * **20/03/2019** Tutoria de tensorflow, e alguns outro de object detection com mobilenets
+
+* **11/05/2019** Comemo no coco bambu(nem foi la essas coisas, nem veio a usina nuclear no prato) lazanha de beringela tava gostosa(ser vegetariano nem é ruim), descobrimos a enway e e tentamos ficamos putos com o boi -chen
