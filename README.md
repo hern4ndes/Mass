@@ -48,3 +48,6 @@
 * **20/03/2019** Tutoria de tensorflow, e alguns outro de object detection com mobilenets
 
 * **11/05/2019** Comemo no coco bambu(nem foi la essas coisas, nem veio a usina nuclear no prato) lazanha de beringela tava gostosa(ser vegetariano nem é ruim), descobrimos a enway e ficamos putos com o boi-chen
+
+
+* **08/70/2019** Não foi produzido nada, Treinamento do modelo 
