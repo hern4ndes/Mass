@@ -216,8 +216,8 @@ def main():
     # This main thread will run the object detection, the capture thread is loaded later
 
     # Some values standing for useful files
-    PATH_TO_FROZEN_GRAPH = 'frozen_inference_graph.pb'
-    PATH_TO_LABELS = 'labelmap.pbtxt'
+    PATH_TO_FROZEN_GRAPH = 'model/frozen_inference_graph.pb'
+    PATH_TO_LABELS = 'model/labelmap.pbtxt'
     NUM_CLASSES = 1
 
     # Starting the ZED capture
