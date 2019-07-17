@@ -50,4 +50,17 @@
 * **11/05/2019** Comemo no coco bambu(nem foi la essas coisas, nem veio a usina nuclear no prato) lazanha de beringela tava gostosa(ser vegetariano nem é ruim), descobrimos a enway e ficamos putos com o boi-chen
 
 
-* **08/70/2019** Não foi produzido nada, Treinamento do modelo 
+* **08/07/2019** Não foi produzido nada, Treinamento do modelo.
+
+
+* **09/07/2019** Início da construção do script para movimentação do robô: ajuste de detecção de ângulos, correção na "simulação" do pygame referente a ajuste na velocidade de rotação do robô.
+
+* **10/07/2019** Construção do script para movimentação do robô: correção na obtenção de pontos dos objetos detectados, habilitação do spatial tracking na ZED.
+
+* **11/07/2019** Construção do script para movimentação do robô: início da implementação do algoritmo de PID e configuração do spatial tracking da ZED.
+
+* **12/07/2019** Finalização da primeira versão do script para a movimentação do robô: testes com motores e cálculo de proporcionalidade entre as velocidades de cada motor, correção de bugs no código do arduíno para acionamento dos motores, itegração do código do arduíno com o script de movimentação em python.
+
+* **15/07/2019** Correção de bugs no script de movimentação referente a espaço tridimensional, sistema de coordenadas, cálculos trigonométricos e parâmetros de execução do spatial tracking da ZED.
+
+* **16/07/2019** Correção de bugs no script de movimentação referente a ângulos de rotação, detecção de objetos, cálculo de posição relativa, velocidade de rotação, intervalos de rotação, ajustes nas constantes do PID, sistema de coordenadas e ajustes no cálculo do erro do PID
