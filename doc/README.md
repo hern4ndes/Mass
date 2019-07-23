@@ -64,3 +64,5 @@
 * **15/07/2019** Correção de bugs no script de movimentação referente a espaço tridimensional, sistema de coordenadas, cálculos trigonométricos e parâmetros de execução do spatial tracking da ZED.
 
 * **16/07/2019** Correção de bugs no script de movimentação referente a ângulos de rotação, detecção de objetos, cálculo de posição relativa, velocidade de rotação, intervalos de rotação, ajustes nas constantes do PID, sistema de coordenadas e ajustes no cálculo do erro do PID
+
+* **22/07/2019** Correção de bugs menores no algoritmo de PID, foi retirado o limite mínimo de velocidade e houveram ajustes na constante de proporcionalidade
