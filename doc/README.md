@@ -66,3 +66,15 @@
 * **16/07/2019** Correção de bugs no script de movimentação referente a ângulos de rotação, detecção de objetos, cálculo de posição relativa, velocidade de rotação, intervalos de rotação, ajustes nas constantes do PID, sistema de coordenadas e ajustes no cálculo do erro do PID
 
 * **22/07/2019** Correção de bugs menores no algoritmo de PID, foi retirado o limite mínimo de velocidade e houveram ajustes na constante de proporcionalidade
+
+* **06/08/2019** Detecção e gravação de vários alvos na memória, cálculo da posição absoluta de cada objeto, cálculo da sequência de trajetória
+
+* **07/08/2019** Correção do problema de "locomoção apenas quando o alvo estiver no campo de visão"
+
+* **08/08/2019** implementação de mudanças no cálculo do angulo ideal: alvos agora têm posição referente ao primeiro ponto de tracking da zed
+
+* **09/08/2019** realização de testes após atualização no algoritmo de movimentação
+
+* **12/08/2019** detecção de lixo coletado e correção de "armazenamento de alvos percebidos"
+
+
