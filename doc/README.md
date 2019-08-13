@@ -77,4 +77,6 @@
 
 * **12/08/2019** detecção de lixo coletado e correção de "armazenamento de alvos percebidos"
 
+* **12/08/2019** revisão e correção debugs simples no código, o "tracking" foi refeito: apenas uma verificação para pequenas alterações na posição do objeto detectado
+
 
