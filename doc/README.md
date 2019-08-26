@@ -79,4 +79,6 @@
 
 * **12/08/2019** revisão e correção debugs simples no código, o "tracking" foi refeito: apenas uma verificação para pequenas alterações na posição do objeto detectado
 
+* **26/08/2019** corrigindo bugs referentes a gravação de novos alvos na memória e localização de pontos negativos: correção no cálculo de arcotangente para alvos detectados
+
 
