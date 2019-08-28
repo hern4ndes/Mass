@@ -82,3 +82,6 @@
 * **26/08/2019** corrigindo bugs referentes a gravação de novos alvos na memória e localização de pontos negativos: correção no cálculo de arcotangente para alvos detectados
 
 * **26/08/2019** correção na localização de alvos em pontos negativos, centralização do robô na janela do pygame, adição manual de novos alvos, correção da adição de novos alvos detectados, realização de testes de movimento: o PID precisa ser melhorado (próximas etapas: LIDAR, PID e melhorar o object detection), correção do ângulo usado para o cálculo de rotação
+
+
+* **26/08/2019** visualização da trajetória percorrida, visualização da área coberta pela visão do robô, revisão do algoritmo, início da implementação da representação gráfica da área percorrida pelo robô (apenas no pygame - "simulador")
