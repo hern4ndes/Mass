@@ -9,6 +9,7 @@ import math
 import tarfile
 import os.path
 import basic_movement as basis
+# import lidar
 
 from threading import Lock, Thread
 from time import sleep
@@ -34,7 +35,10 @@ class vars_of_interest():
 
 voi = vars_of_interest()
 zed_pose = sl.Pose()
-zed_robot = basis.essentials()
+
+debug = sys.argv[1]
+
+zed_robot = basis.essentials(debug)
 
 def load_image_into_numpy_array(image):
     ar = image.get_data()
@@ -51,7 +55,7 @@ def load_depth_into_numpy_array(depth):
 lock = Lock()
 width = 704
 height = 416
-confidence = 0.35
+confidence = 0.9
 
 image_np_global = np.zeros([width, height, 3], dtype=np.uint8)
 depth_np_global = np.zeros([width, height, 4], dtype=np.float)
@@ -276,7 +280,13 @@ def main():
                 image_np, voi.target_list = display_objects_distances(image_np, depth_np, num_detections_, np.squeeze(boxes), np.squeeze(classes).astype(np.int32), np.squeeze(scores), category_index)
                 
                 # Triggering robot
-                zed_robot.set_ang_and_vel(voi.target_list, voi.coord[:2], voi.rotation[2])
+                zed_robot.set_ang_and_vel(voi.target_list, voi.coord[:2], voi.rotation[2] + 90)
+
+                #read lidar
+                # lidar_points = lidar.read()
+                
+                #print(depth_np_global[50][50])
+                # print(lidar_points)
 
                 # Displaying image through OpenCV
                 cv2.imshow('ZED object detection', cv2.resize(image_np, (width, height)))

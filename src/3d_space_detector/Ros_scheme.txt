@@ -1,0 +1,34 @@
+-> Algoritmo de planejamento de trajetória
+   - Zed_node:
+     - Obter a imagem da câmera -> Obter localização dos alvos (uso da rede neural)
+     - Obter posição e orientação da câmera
+
+     - Publica pos, orientation, relative_targets_position
+
+   - Lidar_node:   
+     - Obter pontos do lidar
+
+     - Publica relative_points_position
+
+   - Path_node:
+     - Corrige os pontos relativos da zed baseado na posição
+     - Corrige os pontos relativos do lidar baseado na posição e orientação
+     - Com lista de alvos e obstáculos -> cria a trajetória
+     - Verifica a coleta
+
+     - Publica a lista de pontos que o robô deve seguir*
+
+-> Algoritmo de controle
+   - Encoder_node*
+
+   - Movement_node:
+     - Cálculo do erro de orientação
+     - Cálculo do erro de posição
+     - Algoritmos de PID
+     - O robô deve ajustar os dois erros simultaneamente (o erro de orientação só será priorizado se for muito alto)
+
+     - Publica a velocidade de cada roda
+
+   - Controller_node:
+     - Transforma as velocidades em passos/segundo*
+     - Aciona os motores

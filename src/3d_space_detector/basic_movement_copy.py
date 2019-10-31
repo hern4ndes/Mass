@@ -24,7 +24,7 @@ class essentials():
         self.X = 800  # comprimento em cm do eixo x da área de cobertura
         self.Y = 1500  # comprimento em cm do eixo y da área de cobertura
         self.rrt = rrtBezier.bezier(self.X, self.Y)
-        # self.rplidar = lidar.m_lidar()
+        self.rplidar = lidar.m_lidar()
         self.py_graph = graphic_representation.graphic()
         
         self.first = []
@@ -296,7 +296,7 @@ class essentials():
         return False
 
     def set_ang_and_vel(self, detected_targets, pos, orientation):
-        lidar_points, near_obs = [], [] #self.get_lidar_points(pos, orientation)
+        lidar_points, near_obs = self.get_lidar_points(pos, orientation)
         # lidar_points = []
         # near_obs = []
         # Ordenação dos alvos vistos e cálculo de trajetória (atualização de self.path)
@@ -315,10 +315,10 @@ class essentials():
                 self.obstructed = False
 
             # Escolher entre seguir para o alvo ou seguir o desvio de obstáculos
-            # if self.obs_avoid != []:
-            #     def_path = self.obs_avoid
-            # else:
-            def_path = self.path
+            if self.obs_avoid != []:
+                def_path = self.obs_avoid
+            else:
+                def_path = self.path
 
             # Verificação de obstrução do caminho
             self.obstructed = self.verify_obstruction(near_obs, def_path, obst_radius=0.3)
